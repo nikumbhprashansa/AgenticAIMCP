@@ -1,0 +1,26 @@
+{
+	"servers": {
+		"playwright": {
+			"command": "npx",
+			"args": [
+				"@playwright/mcp@latest"
+			],
+			"type": "stdio"
+		},
+		"agility": {
+			"url": "http://127.0.0.1:8000/mcp",
+			"type": "sse"
+		},
+		"excel": {
+			"url": "http://127.0.0.1:8001/mcp",
+			"type": "sse"
+		},
+		"formatconverter_mcp": {
+			"url": "http://127.0.0.1:8002/mcp",
+			"type": "sse"
+		}
+	},
+	"inputs": []
+}
+
+
